@@ -8,5 +8,11 @@ $ python3
 >> exit()
 
 # Run Server (http://localhst:5000)
-python3 app.py
+$ python3 app.py
 
+# End points 
+- POST /contact
+- GET /contact
+- GET /contact/id
+- PUT /contact/id 
+- DELETE /contact/id
