@@ -3,11 +3,9 @@ $ pip3 install flask flask-sqlalchemy flask-marshmallow marshmallow
 
 # Create DB
 $ python3 
->>> from app import db
->>> 
->>> db.create_all()
->>> 
->>> exit()
+>> from app import db
+>> db.create_all()
+>> exit()
 
 
 # Run Server (http://localhst:5000)
