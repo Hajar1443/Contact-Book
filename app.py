@@ -19,6 +19,8 @@ class ContactModel(db.Model):
 
     def __repr__(self):
         return self.id
+    
+db.create_all()
 
 class ContactSchema(ma.Schema):
   class Meta:
